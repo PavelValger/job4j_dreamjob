@@ -7,7 +7,10 @@ public class Vacancy {
     private int id;
     private String title;
     private String description;
-    private LocalDateTime creationDate;
+    private LocalDateTime creationDate = LocalDateTime.parse(LocalDateTime.now().toString().substring(0, 19));
+
+    public Vacancy() {
+    }
 
     public Vacancy(int id, String title, String description, LocalDateTime creationDate) {
         this.id = id;
@@ -28,8 +31,16 @@ public class Vacancy {
         return title;
     }
 
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
     public String getDescription() {
         return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public LocalDateTime getCreationDate() {
