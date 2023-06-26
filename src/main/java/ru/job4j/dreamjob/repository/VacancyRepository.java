@@ -6,6 +6,7 @@ import java.util.Collection;
 import java.util.Optional;
 
 public interface VacancyRepository {
+
     Vacancy save(Vacancy vacancy);
 
     boolean deleteById(int id);

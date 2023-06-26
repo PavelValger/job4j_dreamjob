@@ -18,12 +18,12 @@ public class MemoryCandidateRepository implements CandidateRepository {
 
     public MemoryCandidateRepository() {
         LocalDateTime dateTime = parse(LocalDateTime.now());
-        save(new Candidate(0, "Pavel", "", dateTime, 3));
-        save(new Candidate(0, "Ivan", "", dateTime, 2));
-        save(new Candidate(0, "Anna", "", dateTime, 1));
-        save(new Candidate(0, "Stanislav", "", dateTime, 3));
-        save(new Candidate(0, "Kristina", "", dateTime, 2));
-        save(new Candidate(0, "Petr", "", dateTime, 1));
+        save(new Candidate(0, "Pavel", "", dateTime, 3, 0));
+        save(new Candidate(0, "Ivan", "", dateTime, 2, 0));
+        save(new Candidate(0, "Anna", "", dateTime, 1, 0));
+        save(new Candidate(0, "Stanislav", "", dateTime, 3, 0));
+        save(new Candidate(0, "Kristina", "", dateTime, 2, 0));
+        save(new Candidate(0, "Petr", "", dateTime, 1, 0));
     }
 
     private LocalDateTime parse(LocalDateTime localDateTime) {
@@ -46,7 +46,8 @@ public class MemoryCandidateRepository implements CandidateRepository {
     public boolean update(Candidate candidate) {
         return candidates.computeIfPresent(candidate.getId(), (id, oldCandidate)
                 -> new Candidate(oldCandidate.getId(), candidate.getName(),
-                candidate.getDescription(), candidate.getCreationDate(), candidate.getCityId())) != null;
+                candidate.getDescription(), candidate.getCreationDate(),
+                candidate.getCityId(), candidate.getFileId())) != null;
     }
 
     @Override
