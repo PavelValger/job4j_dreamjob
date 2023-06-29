@@ -1,3 +1,379 @@
 2023-06-28 19:54:06 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DATABASECHANGELOGLOCK" not found (this database is empty); SQL statement:
 SELECT COUNT(*) FROM DATABASECHANGELOGLOCK [42104-214]
+2023-06-29 18:42:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 18:42:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "TRUNCATE [*]users"; ожидалось "TABLE"
+Syntax error in SQL statement "TRUNCATE [*]users"; expected "TABLE"; SQL statement:
+TRUNCATE users [42001-214]
+2023-06-29 18:42:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 18:42:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "TRUNCATE [*]users"; ожидалось "TABLE"
+Syntax error in SQL statement "TRUNCATE [*]users"; expected "TABLE"; SQL statement:
+TRUNCATE users [42001-214]
+2023-06-29 18:42:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 18:42:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "TRUNCATE [*]users"; ожидалось "TABLE"
+Syntax error in SQL statement "TRUNCATE [*]users"; expected "TABLE"; SQL statement:
+TRUNCATE users [42001-214]
+2023-06-29 18:42:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 18:42:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "TRUNCATE [*]users"; ожидалось "TABLE"
+Syntax error in SQL statement "TRUNCATE [*]users"; expected "TABLE"; SQL statement:
+TRUNCATE users [42001-214]
+2023-06-29 18:44:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 18:44:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "TRUNCATE [*]users"; ожидалось "TABLE"
+Syntax error in SQL statement "TRUNCATE [*]users"; expected "TABLE"; SQL statement:
+TRUNCATE users [42001-214]
+2023-06-29 18:44:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 18:44:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "TRUNCATE [*]users"; ожидалось "TABLE"
+Syntax error in SQL statement "TRUNCATE [*]users"; expected "TABLE"; SQL statement:
+TRUNCATE users [42001-214]
+2023-06-29 18:44:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 18:44:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "TRUNCATE [*]users"; ожидалось "TABLE"
+Syntax error in SQL statement "TRUNCATE [*]users"; expected "TABLE"; SQL statement:
+TRUNCATE users [42001-214]
+2023-06-29 18:44:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 18:44:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "TRUNCATE [*]users"; ожидалось "TABLE"
+Syntax error in SQL statement "TRUNCATE [*]users"; expected "TABLE"; SQL statement:
+TRUNCATE users [42001-214]
+2023-06-29 18:52:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 18:52:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "TRUNCATE [*]users"; ожидалось "TABLE"
+Syntax error in SQL statement "TRUNCATE [*]users"; expected "TABLE"; SQL statement:
+TRUNCATE users [42001-214]
+2023-06-29 18:52:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 18:52:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "TRUNCATE [*]users"; ожидалось "TABLE"
+Syntax error in SQL statement "TRUNCATE [*]users"; expected "TABLE"; SQL statement:
+TRUNCATE users [42001-214]
+2023-06-29 18:52:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 18:52:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "TRUNCATE [*]users"; ожидалось "TABLE"
+Syntax error in SQL statement "TRUNCATE [*]users"; expected "TABLE"; SQL statement:
+TRUNCATE users [42001-214]
+2023-06-29 18:52:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 18:52:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "TRUNCATE [*]users"; ожидалось "TABLE"
+Syntax error in SQL statement "TRUNCATE [*]users"; expected "TABLE"; SQL statement:
+TRUNCATE users [42001-214]
+2023-06-29 18:54:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 18:54:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "TRUNCATE [*]ONLY users"; ожидалось "TABLE"
+Syntax error in SQL statement "TRUNCATE [*]ONLY users"; expected "TABLE"; SQL statement:
+TRUNCATE ONLY users [42001-214]
+2023-06-29 18:54:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 18:54:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "TRUNCATE [*]ONLY users"; ожидалось "TABLE"
+Syntax error in SQL statement "TRUNCATE [*]ONLY users"; expected "TABLE"; SQL statement:
+TRUNCATE ONLY users [42001-214]
+2023-06-29 18:54:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 18:54:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "TRUNCATE [*]ONLY users"; ожидалось "TABLE"
+Syntax error in SQL statement "TRUNCATE [*]ONLY users"; expected "TABLE"; SQL statement:
+TRUNCATE ONLY users [42001-214]
+2023-06-29 18:54:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 18:54:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "TRUNCATE [*]ONLY users"; ожидалось "TABLE"
+Syntax error in SQL statement "TRUNCATE [*]ONLY users"; expected "TABLE"; SQL statement:
+TRUNCATE ONLY users [42001-214]
+2023-06-29 18:59:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 18:59:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+DELETE FROM users [42102-214]
+2023-06-29 18:59:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 18:59:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+DELETE FROM users [42102-214]
+2023-06-29 18:59:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 18:59:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+DELETE FROM users [42102-214]
+2023-06-29 18:59:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 18:59:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+DELETE FROM users [42102-214]
+2023-06-29 19:01:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 19:01:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+DELETE FROM users [42102-214]
+2023-06-29 19:01:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 19:01:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+DELETE FROM users [42102-214]
+2023-06-29 19:01:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 19:01:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+DELETE FROM users [42102-214]
+2023-06-29 19:01:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 19:01:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+DELETE FROM users [42102-214]
+2023-06-29 19:03:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 19:03:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+DELETE FROM users [42102-214]
+2023-06-29 19:03:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 19:03:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+DELETE FROM users [42102-214]
+2023-06-29 19:03:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 19:03:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+DELETE FROM users [42102-214]
+2023-06-29 19:03:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 19:03:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+DELETE FROM users [42102-214]
+2023-06-29 19:07:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 19:07:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+DELETE FROM users [42102-214]
+2023-06-29 19:07:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 19:07:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+DELETE FROM users [42102-214]
+2023-06-29 19:07:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 19:07:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+DELETE FROM users [42102-214]
+2023-06-29 19:07:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+INSERT INTO users(email, name, password)
+VALUES (?, ?, ?)
+ [42102-214]
+2023-06-29 19:07:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+DELETE FROM users [42102-214]
+2023-06-29 19:12:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "TRUNCATE [*]ONLY users RESTART IDENTITY"; ожидалось "TABLE"
+Syntax error in SQL statement "TRUNCATE [*]ONLY users RESTART IDENTITY"; expected "TABLE"; SQL statement:
+TRUNCATE ONLY users RESTART IDENTITY [42001-214]
+2023-06-29 19:12:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "TRUNCATE [*]ONLY users RESTART IDENTITY"; ожидалось "TABLE"
+Syntax error in SQL statement "TRUNCATE [*]ONLY users RESTART IDENTITY"; expected "TABLE"; SQL statement:
+TRUNCATE ONLY users RESTART IDENTITY [42001-214]
+2023-06-29 19:12:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "TRUNCATE [*]ONLY users RESTART IDENTITY"; ожидалось "TABLE"
+Syntax error in SQL statement "TRUNCATE [*]ONLY users RESTART IDENTITY"; expected "TABLE"; SQL statement:
+TRUNCATE ONLY users RESTART IDENTITY [42001-214]
+2023-06-29 19:12:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "TRUNCATE [*]ONLY users RESTART IDENTITY"; ожидалось "TABLE"
+Syntax error in SQL statement "TRUNCATE [*]ONLY users RESTART IDENTITY"; expected "TABLE"; SQL statement:
+TRUNCATE ONLY users RESTART IDENTITY [42001-214]
+2023-06-29 19:12:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "TRUNCATE [*]ONLY users RESTART IDENTITY"; ожидалось "TABLE"
+Syntax error in SQL statement "TRUNCATE [*]ONLY users RESTART IDENTITY"; expected "TABLE"; SQL statement:
+TRUNCATE ONLY users RESTART IDENTITY [42001-214]
+2023-06-29 19:12:42 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "TRUNCATE [*]ONLY users RESTART IDENTITY"; ожидалось "TABLE"
+Syntax error in SQL statement "TRUNCATE [*]ONLY users RESTART IDENTITY"; expected "TABLE"; SQL statement:
+TRUNCATE ONLY users RESTART IDENTITY [42001-214]
+2023-06-29 19:28:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "TRUNCATE [*]ONLY users RESTART IDENTITY"; ожидалось "TABLE"
+Syntax error in SQL statement "TRUNCATE [*]ONLY users RESTART IDENTITY"; expected "TABLE"; SQL statement:
+TRUNCATE ONLY users RESTART IDENTITY [42001-214]
+2023-06-29 19:28:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "TRUNCATE [*]ONLY users RESTART IDENTITY"; ожидалось "TABLE"
+Syntax error in SQL statement "TRUNCATE [*]ONLY users RESTART IDENTITY"; expected "TABLE"; SQL statement:
+TRUNCATE ONLY users RESTART IDENTITY [42001-214]
+2023-06-29 19:28:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "TRUNCATE [*]ONLY users RESTART IDENTITY"; ожидалось "TABLE"
+Syntax error in SQL statement "TRUNCATE [*]ONLY users RESTART IDENTITY"; expected "TABLE"; SQL statement:
+TRUNCATE ONLY users RESTART IDENTITY [42001-214]
+2023-06-29 19:28:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "TRUNCATE [*]ONLY users RESTART IDENTITY"; ожидалось "TABLE"
+Syntax error in SQL statement "TRUNCATE [*]ONLY users RESTART IDENTITY"; expected "TABLE"; SQL statement:
+TRUNCATE ONLY users RESTART IDENTITY [42001-214]
+2023-06-29 19:29:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "ONLY" не найдена
+Table "ONLY" not found; SQL statement:
+TRUNCATE TABLE ONLY users RESTART IDENTITY [42102-214]
+2023-06-29 19:29:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "ONLY" не найдена
+Table "ONLY" not found; SQL statement:
+TRUNCATE TABLE ONLY users RESTART IDENTITY [42102-214]
+2023-06-29 19:29:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "ONLY" не найдена
+Table "ONLY" not found; SQL statement:
+TRUNCATE TABLE ONLY users RESTART IDENTITY [42102-214]
+2023-06-29 19:29:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "ONLY" не найдена
+Table "ONLY" not found; SQL statement:
+TRUNCATE TABLE ONLY users RESTART IDENTITY [42102-214]
