@@ -53,11 +53,7 @@ class Sql2oUserRepositoryTest {
         String email = "pavelwalker@mail.ru";
         String pass = "qwerty";
         sql2oUserRepository.save(new User(0, email, "Pavel", pass)).get();
-        assertThatThrownBy(() -> sql2oUserRepository
-                .save(new User(0, email, "Igor", "123")))
-                .isInstanceOf(Exception.class)
-                .message()
-                .isNotEmpty();
+        assertThat(sql2oUserRepository.save(new User(0, email, "Igor", "123"))).isEmpty();
     }
 
     @Test
