@@ -34,7 +34,7 @@ public class Sql2oUserRepository implements UserRepository {
         } catch (Exception exception) {
             LOG.info("Регистрация зарегистрированного пользователя, Exception in log example", exception);
         }
-        return generatedId == user.getId() ? Optional.of(user) : Optional.empty();
+        return generatedId != -1 ? Optional.of(user) : Optional.empty();
     }
 
     @Override
