@@ -19,7 +19,6 @@ public class Sql2oUserRepository implements UserRepository {
 
     @Override
     public Optional<User> save(User user) {
-        int generatedId = -1;
         try (var connection = sql2o.open()) {
             var sql = """
                     INSERT INTO users(email, name, password)
@@ -29,12 +28,13 @@ public class Sql2oUserRepository implements UserRepository {
                     .addParameter("email", user.getEmail())
                     .addParameter("name", user.getName())
                     .addParameter("password", user.getPassword());
-            generatedId = query.executeUpdate().getKey(Integer.class);
+            int generatedId = query.executeUpdate().getKey(Integer.class);
             user.setId(generatedId);
+            return Optional.of(user);
         } catch (Exception exception) {
             LOG.info("Регистрация зарегистрированного пользователя, Exception in log example", exception);
         }
-        return generatedId != -1 ? Optional.of(user) : Optional.empty();
+        return Optional.empty();
     }
 
     @Override
